@@ -34,3 +34,7 @@ a:visited,
 a:active {
   text-decoration: none;
 }
+
+span.notion-semantic-string {
+  font-size: 60px;
+}
