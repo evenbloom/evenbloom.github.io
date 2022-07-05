@@ -13,8 +13,8 @@ body {
   margin: 0;
   padding: 0;
   font-family: Arial, Helvetica, sans-serif;
-  background-color: var(--background-color);
-  color: var(--text-color);
+  background-color: var(--background-color) !important;
+  color: var(--text-color) !important;
 }
 
 h1,
@@ -36,8 +36,8 @@ a:active {
 }
 
 :root {
-  --background-color:pink !important;
-  --text-color: rgb(34, 34, 34) !important;
+  --background-color:pink;
+  --text-color: rgb(34, 34, 34);
 }
 
 .notion-heading {
