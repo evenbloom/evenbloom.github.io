@@ -17,8 +17,8 @@ body {
   color: var(--text-color) !important;
 }
 
-p.notion-text__content.notion-semantic-string {
-  font-size: 8px;
+h2.notion-heading {
+  font-size: 80px;
 }
 
 h1,
