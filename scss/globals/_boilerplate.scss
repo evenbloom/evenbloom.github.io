@@ -23,10 +23,10 @@ body{
 
 h2.notion-heading{
   font-size: 45px !important;
-  font-weight: 700 !important;
+  font-weight: 500 !important;
 }
 
-.notion-text p.notion-text__content span.notion-semantic-string span strong a.notion-link{
+.notion-semantic-string .link{
   background: black !important;
   padding: 0.6875rem 1.75rem 0.725rem 1.75rem !important;
   border-bottom: none !important;
