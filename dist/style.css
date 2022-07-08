@@ -54,7 +54,12 @@ a.notion-link.link {
 }
 
 .notion-collection-card {
-  display: inline-flex !important;
+  margin-top: 50px !important;
+  display: inline-block !important;
+}
+
+.notion-collection-card__content {
+  width: 100% !important;
 }
 
 h1,
