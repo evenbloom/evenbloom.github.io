@@ -17,6 +17,10 @@ body {
   color: var(--text-color) !important;
 }
 
+.notion-header__cover.no-cover {
+  display: none !important;
+}
+
 .notion-header__title {
   display: none !important;
 }
@@ -62,7 +66,7 @@ a:active {
 
 body {
   --background-color:rgb(252, 252, 252);
-  --text-color: rgb(209, 92, 92);
+  --text-color: rgb(43, 43, 43);
 }
 
 .notion-heading {

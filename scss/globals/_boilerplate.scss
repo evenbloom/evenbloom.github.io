@@ -17,6 +17,10 @@ body{
   color: var(--text-color)!important;
 }
 
+.notion-header__cover.no-cover{
+  display: none !important;
+}
+
 .notion-header__title{
   display: none !important;
 }
