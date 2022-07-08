@@ -53,6 +53,10 @@ a.notion-link.link {
   display: block !important;
 }
 
+.notion-collection-card {
+  display: inline-flex !important;
+}
+
 h1,
 h2,
 h3 {
