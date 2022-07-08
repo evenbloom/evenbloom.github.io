@@ -26,7 +26,9 @@ body {
 }
 
 p.notion-text__content {
-  font-size: 12px !important;
+  font-size: 14px !important;
+  font-weight: 500 !important;
+  color: rgb(184, 184, 184);
 }
 
 h2.notion-heading {
@@ -40,6 +42,7 @@ a.notion-link.link {
   border-bottom: none !important;
   color: aliceblue !important;
   border-radius: 5rem !important;
+  font-size: 16px !important;
   font-weight: 500 !important;
   line-height: 1 !important;
   display: inline-block !important;
