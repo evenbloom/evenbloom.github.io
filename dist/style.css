@@ -49,6 +49,10 @@ a.notion-link.link {
   margin-top: 20px !important;
 }
 
+.notion-collection-gallery {
+  display: block !important;
+}
+
 h1,
 h2,
 h3 {
