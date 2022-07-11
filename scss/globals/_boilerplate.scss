@@ -50,12 +50,13 @@ a.notion-link.link{
 }
 
 .notion-collection-gallery{
-  display: grid !important;
+  display: flex !important;
   gap: 1.5rem !important;
   border-top: none !important;
 }
 
 .notion-collection-card {
+  flex: 1;
   font-size: 20px !important;
   margin-top: 10px !important;
   box-shadow: 2.5rem 3.75rem 3rem !important;
