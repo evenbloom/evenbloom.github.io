@@ -51,11 +51,13 @@ a.notion-link.link {
 
 .notion-collection-gallery {
   display: block !important;
+  gap: 50px !important;
+  border-top: none !important;
 }
 
 .notion-collection-card {
-  margin-top: 50px !important;
   display: flex !important;
+  margin-top: 10px !important;
 }
 
 .notion-collection-card__content {
