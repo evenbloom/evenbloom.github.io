@@ -50,17 +50,26 @@ a.notion-link.link{
 }
 
 .notion-collection-gallery{
-  display: flex !important;
+  display: block !important;
   flex-direction: column !important;
   gap: 1.5rem !important;
   border-top: none !important;
 }
 
+.notion-collection-gallery>.notion-collection-card.gallery{
+  display: flex !important;
+  flex-direction: row !important;
+  align-items: center !important;
+  position: relative !important;
+}
+
 .notion-collection-card {
+
   flex-basis:100% !important;
   font-size: 20px !important;
   margin-top: 10px !important;
-  box-shadow: 0rem 0rem 2rem 2rem !important;
+  box-shadow: none !important;
+  background: 0 0 !important;
 }
 
 .notion-collection-card__content{
