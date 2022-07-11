@@ -50,12 +50,11 @@ a.notion-link.link {
 }
 
 .notion-collection-gallery {
-  display: block !important;
+  display: flex !important;
 }
 
 .notion-collection-card {
   margin-top: 50px !important;
-  display: inline-block !important;
 }
 
 .notion-collection-card__content {
