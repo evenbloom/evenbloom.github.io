@@ -59,7 +59,7 @@ a.notion-link.link {
   flex: 1;
   font-size: 20px !important;
   margin-top: 10px !important;
-  box-shadow: 2.5rem 3.75rem 0.5rem !important;
+  box-shadow: 0rem 0rem 0.5rem -1rem !important;
 }
 
 .notion-collection-card__content {
