@@ -62,6 +62,10 @@ a.notion-link.link {
   padding: 50px !important;
 }
 
+.notion-collection-card__cover.medium {
+  flex-basis: 40% !important;
+}
+
 h1,
 h2,
 h3 {
