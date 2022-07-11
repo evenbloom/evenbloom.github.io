@@ -63,6 +63,12 @@ a.notion-link.link{
   position: relative !important;
 }
 
+.notion-collection-gallery>.notion-collection-card.gallery>a{
+  position: absolute !important;
+  height: 280px !important;
+  width: 500px !important;
+}
+
 .notion-collection-card {
 
   flex-basis:100% !important;
