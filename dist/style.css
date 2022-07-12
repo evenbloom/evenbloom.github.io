@@ -68,6 +68,10 @@ a.notion-link.link {
   position: relative !important;
 }
 
+.notion-collection-card.gallery:nth-child(even) {
+  flex-direction: row-reverse !important;
+}
+
 .notion-collection-gallery > .notion-collection-card.gallery > a {
   position: absolute !important;
   height: 280px !important;
