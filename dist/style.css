@@ -92,7 +92,7 @@ a.notion-link.link {
   height: 500px !important;
 }
 
-.notion-property .notion-property__text .property-57744762 {
+.notion-property.notion-property__text.property-57744762 {
   font-size: 14px !important;
   line-height: 1.2rem !important;
 }
@@ -101,7 +101,7 @@ a.notion-link.link {
   white-space: pre-wrap !important;
 }
 
-.notion-property .notion-property__text .property-7e5e4d3a {
+.notion-property.notion-property__text.property-7e5e4d3a {
   font-weight: 500 !important;
   font-size: 45px !important;
 }
