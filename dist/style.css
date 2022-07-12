@@ -49,6 +49,10 @@ a.notion-link.link {
   margin-top: 20px !important;
 }
 
+.notion-collection__header {
+  font-size: 45px !important;
+}
+
 .notion-collection-gallery {
   display: block !important;
   flex-direction: column !important;
