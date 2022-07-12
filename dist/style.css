@@ -57,6 +57,7 @@ a.notion-link.link {
   display: block !important;
   flex-direction: column !important;
   gap: 1.5rem !important;
+  padding-top: 50px !important;
   border-top: none !important;
 }
 
@@ -76,10 +77,10 @@ a.notion-link.link {
 .notion-collection-card {
   flex-basis: 100% !important;
   font-size: 20px !important;
-  margin-top: 10px !important;
+  margin-bottom: 50px !important;
   box-shadow: none !important;
   background: 0 0 !important;
-  border-radius: none !important;
+  border-radius: 0px !important;
 }
 
 .notion-collection-card__content {
