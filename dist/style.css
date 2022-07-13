@@ -223,7 +223,8 @@ a.notion-link.link {
   display: flex !important;
   max-width: 1440px !important;
   margin: 0 auto !important;
-  padding: 5rem 0 !important;
+  padding-top: 5rem !important;
+  padding-bottom: 5rem !important;
 }
 
 @media only screen and (max-width: 50em) {
