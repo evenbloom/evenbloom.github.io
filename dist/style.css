@@ -79,6 +79,29 @@ select {
     scroll-behavior: auto !important;
   }
 }
+h1,
+h2,
+h3 {
+  font-weight: 700;
+  line-height: 1.1;
+  margin-top: 0;
+}
+
+p {
+  margin-top: 0;
+}
+
+a,
+a:visited,
+a:active {
+  text-decoration: none;
+}
+
+body {
+  --background-color:rgb(252, 252, 252);
+  --text-color: rgb(43, 43, 43);
+}
+
 body {
   margin: 0 !important;
   padding: 0 !important;
@@ -189,29 +212,6 @@ a.notion-link.link {
 
 .notion-property.notion-property__select.property-5d666a67 {
   margin-bottom: 20px !important;
-}
-
-h1,
-h2,
-h3 {
-  font-weight: 700;
-  line-height: 1.1;
-  margin-top: 0;
-}
-
-p {
-  margin-top: 0;
-}
-
-a,
-a:visited,
-a:active {
-  text-decoration: none;
-}
-
-body {
-  --background-color:rgb(252, 252, 252);
-  --text-color: rgb(43, 43, 43);
 }
 
 .notion-heading {
