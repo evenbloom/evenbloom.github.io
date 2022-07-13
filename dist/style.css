@@ -31,6 +31,11 @@ p.notion-text__content {
   color: rgb(184, 184, 184);
 }
 
+.notion-text {
+  font-size: 18px;
+  color: rgb(118, 118, 118);
+}
+
 h2.notion-heading {
   font-size: 45px !important;
   font-weight: 500 !important;
