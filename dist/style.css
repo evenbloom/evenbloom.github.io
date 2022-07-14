@@ -133,7 +133,7 @@ h2.notion-heading {
   font-weight: 500 !important;
 }
 
-a.notion-link.link {
+.notion-text p.notion-text__content span.notion-semantic-string span strong a.notion-link {
   background: black !important;
   padding: 0.6875rem 1.75rem 0.725rem 1.75rem !important;
   border-bottom: none !important;
@@ -144,6 +144,15 @@ a.notion-link.link {
   line-height: 1 !important;
   display: inline-block !important;
   margin-top: 20px !important;
+}
+
+.notion-text p.notion-text__content span.notion-semantic-string span em a.notion-link {
+  font-style: normal !important;
+  font-weight: 500 !important;
+  color: pink !important;
+  border-bottom: 2px solid rgba(247, 246, 251, 0.125) !important;
+  transition: all 0.2s ease-in-out !important;
+  margin-left: 0.5rem !important;
 }
 
 .notion-collection__header {
