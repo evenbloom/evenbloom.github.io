@@ -236,7 +236,7 @@ a.notion-link.link {
     padding: 0 !important;
   }
 }
-.desktop-nav {
+.super-navbar {
   max-width: 1440px !important;
   margin: 0 auto !important;
   text-align: right !important;
@@ -246,17 +246,6 @@ a.notion-link.link {
   padding-top: 2.5rem !important;
   padding-left: 96px !important;
   padding-right: 96px !important;
-}
-
-.desktop-nav .left a {
-  border-bottom: none !important;
-}
-
-.desktop-nav .right a {
-  margin-left: 1.87rem !important;
-  font-size: 1.1rem !important;
-  color: gray !important;
-  border-bottom: none !important;
 }
 
 .notion-heading {
