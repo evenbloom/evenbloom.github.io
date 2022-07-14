@@ -236,6 +236,29 @@ a.notion-link.link {
     padding: 0 !important;
   }
 }
+.desktop-nav {
+  max-width: 1440px !important;
+  margin: 0 auto !important;
+  text-align: right !important;
+  display: flex !important;
+  top: 2.45rem !important;
+  align-items: center !important;
+  padding-top: 2.5rem !important;
+  padding-left: 96px !important;
+  padding-right: 96px !important;
+}
+
+.desktop-nav .left a {
+  border-bottom: none !important;
+}
+
+.desktop-nav .right a {
+  margin-left: 1.87rem !important;
+  font-size: 1.1rem !important;
+  color: gray !important;
+  border-bottom: none !important;
+}
+
 .notion-heading {
   font-size: 60px;
 }
