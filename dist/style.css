@@ -155,6 +155,10 @@ h2.notion-heading {
   margin-left: 0.5rem !important;
 }
 
+.notion-semantic-string .link {
+  border-bottom: none !important;
+}
+
 .notion-collection-card__property .notion-property__url {
   background: black !important;
   padding: 0.6875rem 1.75rem 0.725rem 1.75rem !important;
