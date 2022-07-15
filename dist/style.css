@@ -139,7 +139,7 @@ h2.notion-heading {
   border-bottom: none !important;
   color: aliceblue !important;
   border-radius: 5rem !important;
-  font-size: 16px !important;
+  font-size: 1rem !important;
   font-weight: 500 !important;
   line-height: 1 !important;
   display: inline-block !important;
@@ -165,7 +165,7 @@ h2.notion-heading {
   border-bottom: none !important;
   color: aliceblue !important;
   border-radius: 5rem !important;
-  font-size: 16px !important;
+  font-size: 1rem !important;
   font-weight: 500 !important;
   line-height: 1 !important;
   display: inline-block !important;
@@ -274,11 +274,20 @@ h2.notion-heading {
   padding-right: 96px !important;
 }
 
+.notion-collection__header {
+  display: none !important;
+}
+
 .notion-collection .notion-collection-table__cell .notion-link {
   font-size: 1.1rem !important;
   transition: all 0.2s ease-in-out !important;
   border-bottom: black 1px !important;
   color: black !important;
+}
+
+.notion-collection-table {
+  font-size: 1rem !important;
+  font-weight: 500 !important;
 }
 
 .notion-heading {
