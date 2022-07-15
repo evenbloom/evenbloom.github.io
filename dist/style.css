@@ -156,7 +156,12 @@ h2.notion-heading {
 }
 
 .notion-semantic-string .link {
-  border-bottom: none !important;
+  color: rgb(155, 154, 151) !important;
+}
+
+.notion-semantic-string .link a {
+  color: pink !important;
+  border-bottom: pink !important;
 }
 
 .notion-collection-card__property .notion-property__url {
@@ -264,12 +269,12 @@ h2.notion-heading {
 }
 .super-navbar {
   max-width: 1440px !important;
+  background: none !important;
   margin: 0 auto !important;
   text-align: right !important;
   display: flex !important;
   top: 2.45rem !important;
   align-items: center !important;
-  padding-top: 2.5rem !important;
   padding-left: 96px !important;
   padding-right: 96px !important;
 }
@@ -281,13 +286,18 @@ h2.notion-heading {
 .notion-collection .notion-collection-table__cell .notion-link {
   font-size: 1.1rem !important;
   transition: all 0.2s ease-in-out !important;
-  border-bottom: black 1px !important;
-  color: black !important;
+  border-bottom: rgb(155, 154, 151) !important;
+  color: rgb(155, 154, 151) !important;
+}
+
+.notion-collection .notion-collection-table__cell .notion-link a {
+  color: pink !important;
 }
 
 .notion-collection-table {
   font-size: 1rem !important;
   font-weight: 500 !important;
+  color: rgb(155, 154, 151) !important;
 }
 
 .notion-heading {
