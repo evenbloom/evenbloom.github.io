@@ -294,14 +294,14 @@ h2.notion-heading {
   color: rgb(155, 154, 151) !important;
 }
 
-.notion-collection .notion-collection-table__cell .notion-link a {
+.notion-collection .notion-collection-table__cell .notion-link a:hover {
   color: pink !important;
 }
 
 .notion-collection-table {
   font-size: 1rem !important;
   font-weight: 500 !important;
-  color: rgb(155, 154, 151) !important;
+  color: black !important;
 }
 
 .notion-heading {
