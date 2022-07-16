@@ -165,8 +165,10 @@ h2.notion-heading {
   border-bottom: pink !important;
 }
 
+/*columns design*/
 .notion-column-list {
-  align-items: center !important;
+  align-items: flex-start !important;
+  padding: 2rem 0 !important;
 }
 
 .notion-collection-card__property .notion-property__url {
