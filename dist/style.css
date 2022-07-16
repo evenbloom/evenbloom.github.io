@@ -286,10 +286,6 @@ h2.notion-heading {
   padding-right: 96px !important;
 }
 
-.notion-collection__header {
-  display: none !important;
-}
-
 .notion-collection .notion-collection-table__cell .notion-link {
   font-size: 1.1rem !important;
   transition: all 0.2s ease-in-out !important;
