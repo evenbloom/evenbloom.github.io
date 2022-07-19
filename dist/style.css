@@ -102,6 +102,13 @@ body {
   --text-color: rgb(43, 43, 43);
 }
 
+a:after {
+  color: rgb(155, 154, 151) !important;
+}
+a:hover:after {
+  color: pink !important;
+}
+
 body {
   position: relative !important;
   margin: 0 !important;
@@ -164,6 +171,7 @@ h2.notion-heading {
 
 .notion-semantic-string .link {
   color: rgb(155, 154, 151) !important;
+  border-bottom: 0 !important;
 }
 
 .notion-semantic-string .link a {
