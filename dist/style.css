@@ -285,6 +285,10 @@ h2.notion-heading {
     padding: 0 !important;
   }
 }
+element.style {
+  position: relative !important;
+}
+
 .super-navbar {
   max-width: 1440px !important;
   background: none !important;
