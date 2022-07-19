@@ -326,6 +326,10 @@ element.style {
   color: black !important;
 }
 
+.notion-collection-table__head {
+  display: none !important;
+}
+
 .notion-heading {
   font-size: 60px;
 }
