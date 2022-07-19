@@ -94,7 +94,7 @@ p {
 a,
 a:visited,
 a:active {
-  text-decoration: none !important;
+  text-decoration: none;
 }
 
 body {
@@ -200,7 +200,7 @@ h2.notion-heading {
 
 .notion-collection__header-wrapper {
   margin-top: 4rem !important;
-  margin-bottom: 1rem !important;
+  margin-bottom: 0 !important;
 }
 
 .notion-collection__header {
@@ -324,6 +324,7 @@ element.style {
   font-size: 1rem !important;
   font-weight: 500 !important;
   color: black !important;
+  border-top: none !important;
 }
 
 .notion-collection-table__head {
