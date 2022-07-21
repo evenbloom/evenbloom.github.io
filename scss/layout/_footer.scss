@@ -4,8 +4,8 @@
 .notion-collection .notion-collection-table__cell .notion-link{
   font-size: 1.1rem !important;
   transition: all 0.2s ease-in-out !important;
-  border-bottom: rgb(155, 154, 151) !important;
-  color: rgb(155, 154, 151) !important;
+  border: 0 !important;
+  color: rgb(202, 200, 196) !important;
 }
 .notion-collection .notion-collection-table__cell .notion-link a:hover{
   color: pink !important;
