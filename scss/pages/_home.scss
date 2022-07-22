@@ -58,7 +58,7 @@ h2.notion-heading{
   margin-left: 0.5rem !important;
 }
 
-.notion-property .notion-property__text .property-51665e78{
+.notion-property.notion-property__text.property-51665e78{
   background: black !important;
   padding: 0.6875rem 1.75rem 0.725rem 1.75rem !important;
   border-bottom: none !important;
@@ -71,12 +71,19 @@ h2.notion-heading{
   margin-top: 20px !important;
 }
 
-.notion-semantic-string .link{
+.notion-semantic-string.link{
   color: aliceblue !important;
-  border-bottom: 0 !important; 
+  border-bottom: 0px !important; 
 }
 
-.notion-semantic-string .link a{
+.notion-image.normal{
+  width: 100% !important;
+  max-width: 580px !important;
+  border-radius: 6px !important;
+  margin-bottom: 20px !important;
+}
+
+.notion-semantic-string.link a{
   color:pink !important;
   border-bottom: pink !important;
 }
