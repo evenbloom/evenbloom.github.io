@@ -22,3 +22,7 @@
 .notion-collection-table td, .notion-collection-table th{
   border: 0 !important;
 }
+
+.notion-collection-table__cell .title .no-click{
+  display: none !important;
+}
