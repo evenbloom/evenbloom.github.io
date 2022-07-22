@@ -35,8 +35,8 @@ h2.notion-heading{
   font-weight: 700 !important;
 }
 
-/*project buttons*/
-.notion-property .notion-property__text .property-51665e78 .notion-semantic-string .notion-link .link{
+/*hero button*/
+.notion-text p.notion-text__content span.notion-semantic-string span strong a.notion-link{
   background: black !important;
   padding: 0.6875rem 1.75rem 0.725rem 1.75rem !important;
   border-bottom: none !important;
@@ -49,18 +49,31 @@ h2.notion-heading{
   margin-top: 20px !important;
 }
 
+/*hero link*/
 .notion-text p.notion-text__content span.notion-semantic-string span em a.notion-link {
   font-style: normal !important;
   font-weight: 500 !important;
   color: black !important;
-  border-bottom: black 1px !important;
   transition: all 0.2s ease-in-out !important;
   margin-left: 0.5rem !important;
 }
 
+.notion-property .notion-property__text .property-51665e78{
+  background: black !important;
+  padding: 0.6875rem 1.75rem 0.725rem 1.75rem !important;
+  border-bottom: none !important;
+  color: aliceblue !important;
+  border-radius: 5rem !important;
+  font-size: 1rem !important;
+  font-weight: 500 !important;
+  line-height: 1 !important;
+  display: inline-block !important;
+  margin-top: 20px !important;
+}
+
 .notion-semantic-string .link{
   color: aliceblue !important;
-  border-bottom: none !important; 
+  border-bottom: 0 !important; 
 }
 
 .notion-semantic-string .link a{
