@@ -180,11 +180,11 @@ h2.notion-heading {
   border-bottom: 0px !important;
 }
 
-.notion-image.normal {
+.notion-image.normal img {
   width: 100% !important;
   max-width: 580px !important;
   border-radius: 6px !important;
-  margin-bottom: 20px !important;
+  margin-bottom: 2rem !important;
 }
 
 .notion-semantic-string.link a {
