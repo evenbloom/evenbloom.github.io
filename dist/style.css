@@ -301,7 +301,8 @@ h2.notion-heading {
 
 .super-content {
   display: flex !important;
-  max-width: 1440px !important;
+  /*max-width: 1440px !important;*/
+  max-width: 1200px !important;
   margin: 0 auto !important;
   padding-top: 5rem !important;
   padding-bottom: 5rem !important;
