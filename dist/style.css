@@ -310,8 +310,6 @@ h2.notion-heading {
 
 .notion-collection-gallery.small > .notion-collection-card.gallery.small {
   display: block !important;
-  flex-direction: row !important;
-  align-items: center !important;
   position: relative !important;
 }
 
