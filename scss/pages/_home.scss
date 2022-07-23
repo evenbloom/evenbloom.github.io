@@ -44,7 +44,7 @@ h2.notion-heading{
   background: var(--text-color)!important;
   padding: 0.6875rem 1.75rem 0.725rem 1.75rem !important;
   border-bottom: none !important;
-  color: aliceblue !important;
+  color: rgb(252, 252, 252) !important;
   border-radius: 5rem !important;
   font-size: 1rem !important;
   font-weight: 500 !important;
@@ -66,7 +66,7 @@ h2.notion-heading{
   background: var(--text-color)!important;
   padding: 0.6875rem 1.75rem 0.725rem 1.75rem !important;
   border-bottom: none !important;
-  color: aliceblue !important;
+  color: rgb(252, 252, 252) !important;
   border-radius: 5rem !important;
   font-size: 1rem !important;
   font-weight: 500 !important;
@@ -76,15 +76,15 @@ h2.notion-heading{
 }
 
 .notion-semantic-string .link{
-  color: aliceblue !important;
+  color: rgb(252, 252, 252) !important;
   border-bottom: 0 !important; 
   opacity: 1 !important;
 }
 
-.notion-image.normal img{
+.notion-image.page-width img{
   width: 100% !important;
   max-width: 580px !important;
-  border-radius: 6px !important;
+  border-radius: 5px !important;
   margin-bottom: 2rem !important;
 }
 
@@ -100,10 +100,10 @@ h2.notion-heading{
 }
 
 .notion-collection-card__property .notion-property__url{
-  background: black !important;
+  background: var(--text-color)!important;
   padding: 0.6875rem 1.75rem 0.725rem 1.75rem !important;
   border-bottom: none !important;
-  color: aliceblue !important;
+  color: rgb(252, 252, 252) !important;
   border-radius: 5rem !important;
   font-size: 1rem !important;
   font-weight: 500 !important;
