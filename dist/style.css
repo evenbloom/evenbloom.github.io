@@ -182,6 +182,35 @@ h2.notion-heading {
   opacity: 1 !important;
 }
 
+.link {
+  position: relative !important;
+  transition: -webkit-clip-path 275ms ease !important;
+  transition: clip-path 275ms ease !important;
+  transition: clip-path 275ms ease, -webkit-clip-path 275ms ease !important;
+}
+.link:hover span::before, .link:focus span::before {
+  -webkit-clip-path: polygon(0 0, 100% 0, 100% 100%, 0 100%) !important;
+          clip-path: polygon(0 0, 100% 0, 100% 100%, 0 100%) !important;
+}
+.link span {
+  position: relative !important;
+  display: inline-block !important;
+  color: black !important;
+}
+.link span::before {
+  position: absolute !important;
+  content: attr(data-content) !important;
+  color: pink !important;
+  text-decoration: underline !important;
+  -webkit-text-decoration-color: pink !important;
+          text-decoration-color: pink !important;
+  -webkit-clip-path: polygon(0 0, 0 0, 0% 100%, 0 100%) !important;
+          clip-path: polygon(0 0, 0 0, 0% 100%, 0 100%) !important;
+  transition: -webkit-clip-path 275ms ease !important;
+  transition: clip-path 275ms ease !important;
+  transition: clip-path 275ms ease, -webkit-clip-path 275ms ease !important;
+}
+
 .notion-image.page-width img {
   width: 100% !important;
   max-width: 580px !important;
