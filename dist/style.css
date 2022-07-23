@@ -298,6 +298,7 @@ h2.notion-heading {
 .notion-collection-card__cover.medium {
   min-height: 400px !important;
   height: 400px !important;
+  border-radius: 5px !important;
 }
 
 .notion-property.notion-property__text.property-57744762 {
