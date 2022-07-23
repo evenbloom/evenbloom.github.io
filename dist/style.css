@@ -359,9 +359,9 @@ h2.notion-heading {
 }
 
 .notion-collection-table {
-  font-size: 1rem !important;
+  font-size: 1.125rem !important;
   font-weight: 500 !important;
-  color: black !important;
+  color: var(--text-color) !important;
   border-top: none !important;
 }
 
