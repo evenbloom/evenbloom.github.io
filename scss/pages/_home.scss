@@ -17,7 +17,7 @@ body{
 
 p.notion-text__content{
   font-weight: 500 !important;
-  font-size: 18px !important;
+  font-size: 1.125rem  !important;
   color: rgb(158, 158, 158) !important;
 }
 
@@ -79,16 +79,15 @@ h2.notion-heading{
 .notion-property.notion-property__text.property-51665e78{
   border-bottom: none !important;
   color: var(--text-color)!important;
-  font-size: 1rem !important;
+  font-size: 1.125rem !important;
   font-weight: 500 !important;
   line-height: 1 !important;
   display: inline-block !important;
   margin-top: 20px !important;
-  text-transform: uppercase !important;
 }
 
 .notion-semantic-string .link{
-  color: rgb(252, 252, 252) !important;
+  color: var(--text-color)!important;
   border-bottom: 0 !important; 
   opacity: 1 !important;
 }
