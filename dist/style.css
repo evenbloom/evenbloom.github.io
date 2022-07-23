@@ -144,7 +144,7 @@ h2.notion-heading {
 
 /*hero button*/
 .notion-text p.notion-text__content span.notion-semantic-string span strong a.notion-link {
-  background: black !important;
+  background: var(--text-color) !important;
   padding: 0.6875rem 1.75rem 0.725rem 1.75rem !important;
   border-bottom: none !important;
   color: aliceblue !important;
@@ -160,13 +160,13 @@ h2.notion-heading {
 .notion-text p.notion-text__content span.notion-semantic-string span em a.notion-link {
   font-style: normal !important;
   font-weight: 500 !important;
-  color: black !important;
+  color: var(--text-color) !important;
   transition: all 0.2s ease-in-out !important;
   margin-left: 0.5rem !important;
 }
 
 .notion-property.notion-property__text.property-51665e78 {
-  background: black !important;
+  background: var(--text-color) !important;
   padding: 0.6875rem 1.75rem 0.725rem 1.75rem !important;
   border-bottom: none !important;
   color: aliceblue !important;
