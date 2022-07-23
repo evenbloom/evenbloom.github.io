@@ -127,6 +127,7 @@ p.notion-text__content {
 /*headings*/
 h1.notion-heading {
   font-weight: 400 !important;
+  color: rgb(158, 158, 158) !important;
 }
 
 h1.notion-heading strong {
