@@ -388,11 +388,6 @@ a:hover {
   font-size: 1.1rem !important;
   transition: all 0.2s ease-in-out !important;
   border: 0 !important;
-  color: rgb(155, 154, 151) !important;
-}
-
-.notion-collection .notion-collection-table__cell .notion-link a:hover {
-  color: pink !important;
 }
 
 .notion-collection-table {
