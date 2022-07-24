@@ -76,9 +76,11 @@ h2.notion-heading{
 .notion-semantic-string .link{
   border-bottom: 0 !important; 
   opacity: 1 !important;
-  color: var(--text-color) !important;
 }
 
+.notion-link{
+  color: var(--text-color) !important;
+}
 
 .notion-image.page-width img{
   width: 100% !important;
