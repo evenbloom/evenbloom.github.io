@@ -375,6 +375,12 @@ a:hover {
   padding-right: 96px !important;
 }
 
+.super-navbar__item {
+  opacity: 1 !important;
+  font-size: 1.125rem !important;
+  color: var(--text-color) !important;
+}
+
 .notion-collection .notion-collection-table__cell .notion-link {
   font-size: 1.1rem !important;
   transition: all 0.2s ease-in-out !important;
