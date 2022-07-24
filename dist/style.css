@@ -247,6 +247,10 @@ h2.notion-heading {
   width: 500px !important;
 }
 
+a:hover {
+  color: pink !important;
+}
+
 .notion-collection-card {
   flex-basis: 100% !important;
   font-size: 20px !important;
