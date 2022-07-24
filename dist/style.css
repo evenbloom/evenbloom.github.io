@@ -393,7 +393,7 @@ a:hover {
 .notion-collection-table {
   font-size: 1.125rem !important;
   font-weight: 500 !important;
-  color: var(--text-color) !important;
+  color: rgb(158, 158, 158) !important;
   border-top: none !important;
 }
 
