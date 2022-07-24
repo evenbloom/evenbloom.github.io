@@ -221,6 +221,7 @@ h2.notion-heading{
 
 .notion-collection-gallery.small{
   display: flex !important;
+  flex-direction: row !important;
 }
 
 .notion-collection-card__content{
