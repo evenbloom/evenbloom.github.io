@@ -231,9 +231,13 @@ h2.notion-heading{
   padding-bottom: 5rem !important;
 }
 
-.notion-collection-gallery.small>.notion-collection-card.gallery.small{
+.notion-collection-gallery .small{
   display: block !important;
   position: relative !important;
+}
+
+.notion-collection .inline .collection-d6309c8cebef4cb7b8c744970b459cf0{
+  display: block !important;
 }
 
 @media only screen and (max-width: 50em){
