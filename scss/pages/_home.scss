@@ -141,17 +141,7 @@ h2.notion-heading{
 }
 
 .notion-collection-card__property:last-of-type{
-    padding: 12px 30px 12px 30px!important;
-    border: 1px solid grey!important;
-    border-radius: 5px!important;
-    margin-top: 20px!important;
-    display: inline-flex!important;
-    align-items: center!important;
-    line-height: 0!important;
-    transition: var(--transition)!important;
-    -webkit-backdrop-filter: blur(10px);
-    backdrop-filter: blur(10px);
-    cursor: pointer!important;
+    opacity: .7 !important;
 }
 
 .notion-collection-gallery>.notion-collection-card.gallery>a{
