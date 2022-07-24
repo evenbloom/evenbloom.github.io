@@ -260,7 +260,7 @@ h2.notion-heading {
   border-radius: 0px !important;
 }
 
-.notion-collection-card__content {
+.notion-collection-card__content.no-title {
   width: 100% !important;
   padding: 50px !important;
 }
@@ -316,7 +316,7 @@ h2.notion-heading {
   display: flex !important;
 }
 
-.notion-property.notion-property__text.property-5a52786a {
+.notion-collection-card__content {
   padding: 0 !important;
 }
 
