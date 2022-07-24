@@ -322,10 +322,19 @@ h2.notion-heading {
   display: block !important;
 }
 
-.notion-collection .inline .collection-d6309c8cebef4cb7b8c744970b459cf0 {
-  display: block !important;
+.notion-collection-gallery.small {
+  display: flex !important;
 }
 
+.notion-property.notion-property__text.property-5a52786a {
+  padding: 0 !important;
+}
+
+/*
+.notion-collection .inline .collection-d6309c8cebef4cb7b8c744970b459cf0{
+  display: block !important;
+}
+*/
 @media only screen and (max-width: 50em) {
   .notion-collection-gallery > .notion-collection-card.gallery {
     display: block !important;
