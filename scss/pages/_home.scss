@@ -236,6 +236,10 @@ a:hover{
   line-height: 1.5rem !important;
 }
 
+.notion-property.notion-property__text.property-5a52786a{
+  color: rgb(158, 158, 158) !important;
+}
+
 .notion-collection-card .notion-property__title{
   padding: 0 !important;
   font-size: 2rem !important;
@@ -255,5 +259,9 @@ a:hover{
 
   .notion-collection-card__content{
     padding: 0 !important;
+  }
+
+  .notion-collection-gallery.small{
+    flex-direction: column !important;
   }
 }
