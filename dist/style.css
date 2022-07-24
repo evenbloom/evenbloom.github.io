@@ -351,6 +351,10 @@ a:hover {
   padding: 1rem 0 !important;
 }
 
+.notion-collection-card .notion-property__title .notion-property__title__icon-wrapper {
+  display: none !important;
+}
+
 @media only screen and (max-width: 50em) {
   .notion-collection-gallery > .notion-collection-card.gallery {
     display: block !important;
