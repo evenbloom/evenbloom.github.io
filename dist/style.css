@@ -110,10 +110,6 @@ body {
   color: var(--text-color) !important;
 }
 
-.notion-divider {
-  margin: 4rem 0 !important;
-}
-
 .notion-header__cover.no-cover {
   display: none !important;
 }
