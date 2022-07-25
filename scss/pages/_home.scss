@@ -20,6 +20,7 @@ p.notion-text__content{
   font-weight: 500 !important;
   font-size: 1.125rem  !important;
   color: rgb(158, 158, 158) !important;
+  margin-bottom: 2rem !important;
 }
 
 /*headings*/
@@ -111,9 +112,12 @@ h2.notion-heading{
   margin-top: 20px !important;
 }
 
-/*card header*/
+/*Client Section*/
+
+.notion-collection .inline .collection-2f78151e9a9e485fbbf3aa91bbee0445{
+  margin-top: 2rem !important;
+}
 .notion-collection__header-wrapper{
-  margin-top: 4rem !important;
   margin-bottom: 0 !important;
 }
 
@@ -207,6 +211,11 @@ a:hover{
 }
 
 /*Blog Section*/
+
+.notion-collection .inline .collection-d6309c8cebef4cb7b8c744970b459cf0{
+  margin-top: 2rem !important;
+}
+
 .notion-collection-gallery.small > .notion-collection-card.gallery{
   display: block !important;
   margin-bottom: 0 !important;
