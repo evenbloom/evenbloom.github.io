@@ -134,7 +134,6 @@ h1.notion-heading {
   color: rgb(158, 158, 158) !important;
   max-width: 80% !important;
   margin-top: 0.5rem !important;
-  margin-bottom: 1rem !important;
 }
 
 h1.notion-heading strong {
@@ -287,6 +286,10 @@ a:hover {
   min-height: 400px !important;
   height: 400px !important;
   border-radius: 5px !important;
+}
+
+.notion-collection-card__property:hover {
+  color: #3b29be !important;
 }
 
 .notion-property.notion-property__text.property-57744762 {
