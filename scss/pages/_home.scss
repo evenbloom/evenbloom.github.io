@@ -245,8 +245,8 @@ a:hover{
 }
 
 .notion-collection-gallery.small{
-  display: flex !important;
-  flex-direction: row !important;
+  display: grid !important;
+  grid-template-columns: repeat(3, 1fr) !important;
 }
 
 .notion-collection-card__cover.small{
@@ -301,6 +301,6 @@ a:hover{
   }
 
   .notion-collection-gallery.small{
-    flex-direction: column !important;
+    grid-template-columns: repeat(1, 1fr) !important;
   }
 }
