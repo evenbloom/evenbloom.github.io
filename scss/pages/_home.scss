@@ -270,11 +270,11 @@ a:hover{
   font-weight: 700 !important;
 }
 
-.notion-collection-card .notion-property__title span::before{
+.notion-collection-card .notion-property__title::before{
   color: var(--text-color) !important;
 }
 
-.notion-collection-card .notion-property__title span:hover{
+.notion-collection-card .notion-property__title:hover{
   color: #3b29be !important;
 }
 
