@@ -150,7 +150,7 @@ h2.notion-heading {
 }
 
 h3.notion-heading {
-  font-size: 2.25rem !important;
+  font-size: 1.875rem !important;
   font-weight: 700 !important;
   text-transform: uppercase !important;
 }
@@ -243,13 +243,6 @@ h3.notion-heading {
 
 .notion-collection__header-wrapper {
   margin-bottom: 0 !important;
-}
-
-.notion-collection__header {
-  color: var(--text-color) !important;
-  font-size: 2.5rem !important;
-  font-weight: 700 !important;
-  text-transform: uppercase !important;
 }
 
 .notion-collection-gallery {
