@@ -138,13 +138,18 @@ h1.notion-heading {
 
 h1.notion-heading strong {
   color: var(--text-color) !important;
-  font-size: 2.5rem !important;
+  font-size: 3.75rem !important;
   font-weight: 700 !important;
   text-transform: uppercase !important;
 }
 
 h2.notion-heading {
-  font-size: 2rem !important;
+  font-size: 2.5rem !important;
+  font-weight: 700 !important;
+}
+
+h3.notion-heading {
+  font-size: 2.25rem !important;
   font-weight: 700 !important;
 }
 
