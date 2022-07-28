@@ -105,12 +105,16 @@ h3.notion-heading{
   color: var(--text-color) !important;
 }
 
-.notion-image.page-width img{
+.notion-image.page-width{
   width: 100% !important;
-  max-width: 580px !important;
+  max-width: 60% !important;
   border-radius: 5px !important;
   -webkit-border-radius: 5px !important;
   -moz-border-radius: 5px !important;
+}
+
+.notion-image {
+  align-self: auto !important;
 }
 
 
