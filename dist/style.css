@@ -122,6 +122,7 @@ p.notion-text__content {
   font-weight: 500 !important;
   font-size: 1.125rem !important;
   color: rgb(158, 158, 158) !important;
+  padding-bottom: 1.5rem !important;
 }
 
 /*.notion-text__content{
@@ -167,20 +168,11 @@ h3.notion-heading {
   font-weight: 500 !important;
   line-height: 1 !important;
   display: inline-block !important;
-  transition: background 0.5s 0s ease-in-out !important;
+  transition: background 0.3s 0s ease-in-out !important;
 }
 
 .notion-text p.notion-text__content span.notion-semantic-string span strong a.notion-link:hover {
   background: #3b29be !important;
-}
-
-.super-navbar__cta {
-  padding: 0.6875rem 1.75rem 0.725rem 1.75rem !important;
-}
-
-.super-navbar__cta:hover {
-  background: #3b29be !important;
-  opacity: 1 !important;
 }
 
 /*hero link*/
@@ -290,7 +282,7 @@ a:hover {
   border-radius: 5px !important;
 }
 
-a.notion-link .notion-collection-card__anchor:hover {
+.notion-link.notion-collection-card__anchor a:hover {
   color: #3b29be !important;
 }
 
@@ -428,6 +420,17 @@ a.notion-link .notion-collection-card__anchor:hover {
   opacity: 1 !important;
   font-size: 1.125rem !important;
   color: var(--text-color) !important;
+}
+
+/*CTA btn*/
+.super-navbar__cta {
+  padding: 0.6875rem 1.75rem 0.725rem 1.75rem !important;
+  transition: background 0.3s 0s ease-in-out !important;
+}
+
+.super-navbar__cta:hover {
+  background: #3b29be !important;
+  opacity: 1 !important;
 }
 
 .notion-collection .notion-collection-table__cell .notion-link {
