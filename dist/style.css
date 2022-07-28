@@ -390,6 +390,9 @@ a:hover {
   h1.notion-heading {
     max-width: 100% !important;
   }
+  .notion-text p.notion-text__content span.notion-semantic-string span em a.notion-link {
+    display: block !important;
+  }
   .notion-collection-gallery > .notion-collection-card.gallery {
     display: block !important;
   }
@@ -433,6 +436,12 @@ a:hover {
   opacity: 1 !important;
 }
 
+@media only screen and (max-width: 50em) {
+  .super-navbar {
+    padding-left: 0 !important;
+    padding-right: 0 !important;
+  }
+}
 .notion-collection .notion-collection-table__cell .notion-link {
   font-size: 1.1rem !important;
   transition: all 0.2s ease-in-out !important;
