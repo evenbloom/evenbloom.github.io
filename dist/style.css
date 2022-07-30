@@ -129,8 +129,16 @@ body {
 p.notion-text__content {
   font-weight: 500 !important;
   font-size: 1.125rem !important;
-  color: var() !important;
+  color: var(--theme-p-color) !important;
   padding-bottom: 1.5rem !important;
+}
+
+.notion-quote {
+  -webkit-border-start: 3px solid var(--theme-btn);
+          border-inline-start: 3px solid var(--theme-btn);
+  font-weight: 500 !important;
+  font-size: 1.125rem !important;
+  color: var(--theme-p-color) !important;
 }
 
 /*.notion-text__content{
