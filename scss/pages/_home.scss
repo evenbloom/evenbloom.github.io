@@ -25,7 +25,7 @@ p.notion-text__content{
 
 //quote
 .notion-quote{
-  border-inline-start: calc(1px + 2px) solid var(--theme-btn);
+  border-inline-start: calc(1px + 2px) solid var(--theme-btn) !important;
   font-weight: 500 !important;
   font-size: 1.125rem  !important;
   color: var(--theme-p-color)!important;
