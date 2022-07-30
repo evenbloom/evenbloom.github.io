@@ -16,7 +16,7 @@
 .super-navbar__item{
   opacity: 1 !important;
   font-size: 1.125rem !important;
-  color: var(--text-color) !important;
+  color: var(--theme-heading) !important;
 }
  /*CTA btn*/
 .super-navbar__cta{
@@ -27,7 +27,7 @@
   transition: background 0.3s 0s ease-in-out !important;
 }
 .super-navbar__cta:hover{
-  background: #3b29be !important;
+  background: var(--theme-btn) !important;
   opacity: 1 !important;
 }
 

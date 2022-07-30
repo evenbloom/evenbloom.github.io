@@ -3,8 +3,8 @@ body{
   margin: 0 !important;
   padding: 0 !important;
   font-family: Arial, Helvetica, sans-serif;
-  background-color: $white !important;
-  color: $black !important;
+  background-color: var(--theme-background)!important;
+  color: var(--theme-heading)!important;
 }
 
 
@@ -16,22 +16,12 @@ body{
   display: none !important;
 }
 
-//paragraph
 p.notion-text__content{
   font-weight: 500 !important;
   font-size: 1.125rem  !important;
-  color: $grey !important;
+  color: var()!important;
   padding-bottom: 1.5rem !important;
 }
-
-//quote
-.notion-quote{
-  border-inline-start: calc (1px + 2px) solid $purple !important;
-  font-weight: 500 !important;
-  font-size: 1.125rem  !important;
-  color: $black !important;
-}
-
 
 /*.notion-text__content{
   margin: 1rem 0 !important;
@@ -40,14 +30,14 @@ p.notion-text__content{
 /*headings*/
 h1.notion-heading{
   font-weight: 400 !important;
-  color: $grey !important;
+  color: var(--theme-p-color) !important;
   max-width: 80% !important;
   margin-top: .5rem !important;
   margin-bottom: .5rem !important;
 }
 
 h1.notion-heading strong{
-  color: $black !important;
+  color: var(--theme-heading)!important;
   font-size: 3.75rem !important;
   line-height: 3.5rem !important;
   font-weight: 700 !important;
@@ -68,10 +58,10 @@ h3.notion-heading{
 
 /*hero button*/
 .notion-text p.notion-text__content span.notion-semantic-string span strong a.notion-link{
-  background: $black !important;
+  background: var(--theme-heading)!important;
   padding: 0.6875rem 1.75rem 0.725rem 1.75rem !important;
   border-bottom: none !important;
-  color: $white !important;
+  color: rgb(252, 252, 252) !important;
   border-radius: 5rem !important;
   font-size: 1rem !important;
   font-weight: 500 !important;
@@ -84,21 +74,21 @@ h3.notion-heading{
 }
 
 .notion-text p.notion-text__content span.notion-semantic-string span strong a.notion-link:hover{
-  background: $purple !important;
+  background: var(--theme-btn) !important;
 }
 
 /*hero link*/
 .notion-text p.notion-text__content span.notion-semantic-string span em a.notion-link {
   font-style: normal !important;
   font-weight: 500 !important;
-  color: $black !important;
+  color: var(--theme-heading)!important;
   transition: all 0.2s ease-in-out !important;
   margin-left: 0.5rem !important;
 }
 
 .notion-property.notion-property__text.property-51665e78{
   border-bottom: none !important;
-  color: $black!important;
+  color: var(--theme-heading)!important;
   font-size: 1.125rem !important;
   font-weight: 500 !important;
   line-height: 1 !important;
@@ -112,7 +102,7 @@ h3.notion-heading{
 }
 
 .notion-link{
-  color: $black !important;
+  color: var(--theme-heading) !important;
 }
 
 .notion-image.page-width{
@@ -135,10 +125,10 @@ h3.notion-heading{
 }
 
 .notion-collection-card__property .notion-property__url{
-  background: $black !important;
+  background: var(--theme-heading)!important;
   padding: 0.6875rem 1.75rem 0.725rem 1.75rem !important;
   border-bottom: none !important;
-  color: $white !important;
+  color: var(--theme-background) !important;
   border-radius: 5rem !important;
   font-size: 1rem !important;
   font-weight: 500 !important;
@@ -176,7 +166,7 @@ h3.notion-heading{
 }
 
 a:hover{
-  color: $purple !important;
+  color: var(--theme-btn) !important;
 }
 .notion-collection-card {
 
@@ -201,14 +191,14 @@ a:hover{
 }
 
 .notion-link.notion-collection-card__anchor a:hover{
-  color: $purple !important;
+  color: var(--theme-btn) !important;
 }
 
 .notion-property.notion-property__text.property-57744762{
   font-size: 1rem !important;
   font-weight: 500 !important;
   line-height: 1.5rem !important;
-  color: $grey !important;
+  color: var(--theme-p-color) !important;
 
 }
 
@@ -243,7 +233,6 @@ a:hover{
   padding-bottom: 5rem !important;
 }
 
-
 /*Blog Section*/
 
 .notion-collection.inline.collection-d6309c8cebef4cb7b8c744970b459cf0{
@@ -276,7 +265,7 @@ a:hover{
 }
 
 .notion-property.notion-property__text.property-5a52786a{
-  color: $grey !important;
+  color: var(--theme-p-color) !important;
 }
 
 .notion-collection-card .notion-property__title{
@@ -286,11 +275,11 @@ a:hover{
 }
 
 .notion-collection-card .notion-property__title::before{
-  color: $black !important;
+  color: var(--theme-heading) !important;
 }
 
 .notion-collection-card .notion-property__title:hover{
-  color: $purple !important;
+  color: var(--theme-btn) !important;
 }
 
 .notion-property__title .notion-semantic-string{
