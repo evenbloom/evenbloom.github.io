@@ -52,6 +52,7 @@ img,
 picture {
   max-width: 100% !important;
   display: block !important;
+  border-radius: 5px !important;
 }
 
 /* Inherit fonts for inputs and buttons */
