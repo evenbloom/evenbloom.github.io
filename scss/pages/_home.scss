@@ -3,8 +3,8 @@ body{
   margin: 0 !important;
   padding: 0 !important;
   font-family: Arial, Helvetica, sans-serif;
-  background-color: var(--background-color)!important;
-  color: var(--text-color)!important;
+  background-color: $white !important;
+  color: $black !important;
 }
 
 
@@ -19,7 +19,7 @@ body{
 p.notion-text__content{
   font-weight: 500 !important;
   font-size: 1.125rem  !important;
-  color: rgb(158, 158, 158) !important;
+  color: $grey !important;
   padding-bottom: 1.5rem !important;
 }
 
@@ -30,14 +30,14 @@ p.notion-text__content{
 /*headings*/
 h1.notion-heading{
   font-weight: 400 !important;
-  color: rgb(158, 158, 158) !important;
+  color: $grey !important;
   max-width: 80% !important;
   margin-top: .5rem !important;
   margin-bottom: .5rem !important;
 }
 
 h1.notion-heading strong{
-  color: var(--text-color)!important;
+  color: $black!important;
   font-size: 3.75rem !important;
   line-height: 3.5rem !important;
   font-weight: 700 !important;
@@ -58,10 +58,10 @@ h3.notion-heading{
 
 /*hero button*/
 .notion-text p.notion-text__content span.notion-semantic-string span strong a.notion-link{
-  background: var(--text-color)!important;
+  background: $black !important;
   padding: 0.6875rem 1.75rem 0.725rem 1.75rem !important;
   border-bottom: none !important;
-  color: rgb(252, 252, 252) !important;
+  color: $white !important;
   border-radius: 5rem !important;
   font-size: 1rem !important;
   font-weight: 500 !important;
@@ -74,21 +74,21 @@ h3.notion-heading{
 }
 
 .notion-text p.notion-text__content span.notion-semantic-string span strong a.notion-link:hover{
-  background: #3b29be !important;
+  background: $purple !important;
 }
 
 /*hero link*/
 .notion-text p.notion-text__content span.notion-semantic-string span em a.notion-link {
   font-style: normal !important;
   font-weight: 500 !important;
-  color: var(--text-color)!important;
+  color: $black !important;
   transition: all 0.2s ease-in-out !important;
   margin-left: 0.5rem !important;
 }
 
 .notion-property.notion-property__text.property-51665e78{
   border-bottom: none !important;
-  color: var(--text-color)!important;
+  color: $black!important;
   font-size: 1.125rem !important;
   font-weight: 500 !important;
   line-height: 1 !important;
@@ -102,7 +102,7 @@ h3.notion-heading{
 }
 
 .notion-link{
-  color: var(--text-color) !important;
+  color: $black !important;
 }
 
 .notion-image.page-width{
@@ -125,10 +125,10 @@ h3.notion-heading{
 }
 
 .notion-collection-card__property .notion-property__url{
-  background: var(--text-color)!important;
+  background: $black !important;
   padding: 0.6875rem 1.75rem 0.725rem 1.75rem !important;
   border-bottom: none !important;
-  color: rgb(252, 252, 252) !important;
+  color: $white !important;
   border-radius: 5rem !important;
   font-size: 1rem !important;
   font-weight: 500 !important;
@@ -166,7 +166,7 @@ h3.notion-heading{
 }
 
 a:hover{
-  color: #3b29be !important;
+  color: $purple !important;
 }
 .notion-collection-card {
 
@@ -191,14 +191,14 @@ a:hover{
 }
 
 .notion-link.notion-collection-card__anchor a:hover{
-  color: #3b29be !important;
+  color: $purple !important;
 }
 
 .notion-property.notion-property__text.property-57744762{
   font-size: 1rem !important;
   font-weight: 500 !important;
   line-height: 1.5rem !important;
-  color: rgb(158, 158, 158) !important;
+  color: $grey !important;
 
 }
 
@@ -265,7 +265,7 @@ a:hover{
 }
 
 .notion-property.notion-property__text.property-5a52786a{
-  color: rgb(158, 158, 158) !important;
+  color: $grey !important;
 }
 
 .notion-collection-card .notion-property__title{
@@ -275,11 +275,11 @@ a:hover{
 }
 
 .notion-collection-card .notion-property__title::before{
-  color: var(--text-color) !important;
+  color: $black !important;
 }
 
 .notion-collection-card .notion-property__title:hover{
-  color: #3b29be !important;
+  color: $purple !important;
 }
 
 .notion-property__title .notion-semantic-string{

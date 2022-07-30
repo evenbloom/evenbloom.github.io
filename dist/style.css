@@ -317,7 +317,7 @@ a:hover {
   font-size: 1rem !important;
   font-weight: 500 !important;
   line-height: 1.5rem !important;
-  color: rgb(158, 158, 158) !important;
+  color: !important;
 }
 
 .gallery .notion-collection-card__property .notion-semantic-string {
