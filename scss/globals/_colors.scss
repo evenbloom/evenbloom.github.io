@@ -1,4 +1,24 @@
+
+// color palette
+$black: rgb(43, 43, 43);
+$white: rgb(252, 252, 252);
+$grey: rgb(158, 158, 158);
+$purple: #3b29be;
+
+
+// globals
+
 body{
-  --background-color:rgb(252, 252, 252);
-  --text-color: rgb(43, 43, 43);
+  background-color: $white !important;
+  animation: fadeIn 0.35s cubic-bezier(0.390, 0.575, 1.080) 1.1s both;
+  height: 100% !important;
+
+  @keyframes fadeIn {
+    0% {opacity: 0;}
+    100% {opacity: 1;}
+  }
+
+  &.no-scroll {
+    overflow: hidden !important;
+  }
 }
