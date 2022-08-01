@@ -310,7 +310,8 @@ a:hover{
 
 .notion-collection-card .notion-property__title{
   padding: 0 !important;
-  font-size: 1.125rem !important;
+  font-size: 2.25rem !important;
+  line-height: 2.5rem !important;
   font-weight: 700 !important;
 }
 
@@ -352,6 +353,11 @@ a:hover{
 
   .notion-collection-gallery > .notion-collection-card.gallery{
     display: block !important;
+  }
+
+  .gallery .notion-collection-card__property .notion-semantic-string{
+    overflow: visible !important;
+    line-height: 2.5rem !important;
   }
 
   .notion-collection-card__content{
