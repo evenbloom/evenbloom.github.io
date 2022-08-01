@@ -417,8 +417,10 @@ a:hover {
   h1.notion-heading {
     max-width: 100% !important;
   }
-  .notion-text p.notion-text__content span.notion-semantic-string span em a.notion-link {
-    display: block !important;
+  .notion-semantic-string {
+    display: grid !important;
+    word-break: unset !important;
+    gap: 0.5rem !important;
   }
   .notion-collection-gallery > .notion-collection-card.gallery {
     display: block !important;
