@@ -442,7 +442,7 @@ a:hover {
   }
   .notion-semantic-string {
     display: grid !important;
-    word-break: unset !important;
+    white-space: unset !important;
     gap: 0.5rem !important;
   }
   .notion-collection-gallery > .notion-collection-card.gallery {
