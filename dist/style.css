@@ -304,7 +304,6 @@ a:hover {
 
 .notion-collection-card__cover.medium {
   min-height: 400px !important;
-  min-width: 500px !important;
   height: 400px !important;
   border-radius: 5px !important;
 }
@@ -424,9 +423,6 @@ a:hover {
   }
   .notion-collection-gallery > .notion-collection-card.gallery {
     display: block !important;
-  }
-  .notion-collection-card__cover.medium {
-    max-width: auto !important;
   }
   .notion-collection-card__content {
     padding: 0 !important;
