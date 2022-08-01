@@ -141,6 +141,12 @@ p.notion-text__content {
   color: var(--theme-p-color) !important;
 }
 
+.notion-bulleted-list {
+  font-weight: 500 !important;
+  font-size: 1.125rem !important;
+  color: var(--theme-heading);
+}
+
 /*.notion-text__content{
   margin: 1rem 0 !important;
 }*/
@@ -416,6 +422,9 @@ a:hover {
   }
   .notion-collection-gallery > .notion-collection-card.gallery {
     display: block !important;
+  }
+  .notion-collection-card__cover.medium {
+    max-width: auto !important;
   }
   .notion-collection-card__content {
     padding: 0 !important;
