@@ -467,17 +467,17 @@ a:hover {
     grid-template-columns: repeat(1, 1fr) !important;
   }
 }
+/*
 .super-navbar[style] {
   position: relative !important;
-}
-
+}*/
 .super-navbar {
   max-width: 1200px !important;
-  background: none !important;
+  /*background: none !important;*/
   margin: 0 auto !important;
   text-align: right !important;
   display: flex !important;
-  top: 2.45rem !important;
+  /*top: 2.45rem !important;*/
   align-items: center !important;
   padding-left: 96px !important;
   padding-right: 96px !important;
