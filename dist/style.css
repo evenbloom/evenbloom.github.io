@@ -377,6 +377,7 @@ a:hover {
 /*Blog Section*/
 .notion-collection.inline.collection-d6309c8cebef4cb7b8c744970b459cf0 {
   margin-top: 2rem !important;
+  margin-bottom: 2.25rem !important;
 }
 
 .notion-collection-gallery.small > .notion-collection-card.gallery {
@@ -414,6 +415,10 @@ a:hover {
   font-size: 1.4rem !important;
   line-height: 2.5rem !important;
   font-weight: 700 !important;
+}
+
+.notion-collection-gallery.small a:hover {
+  color: var(--theme-btn) !important;
 }
 
 .notion-collection-card .notion-property__title::before {
