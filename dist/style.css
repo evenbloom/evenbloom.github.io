@@ -305,16 +305,8 @@ h3.notion-heading {
   position: relative !important;
 }
 
-.notion-collection-card.gallery > a::after {
-  color: var(--theme-btn) !important;
-}
-
 .notion-collection-card.gallery:nth-child(even) {
   flex-direction: row-reverse !important;
-}
-
-a:hover {
-  color: var(--theme-btn) !important;
 }
 
 .notion-collection-card {
@@ -361,11 +353,7 @@ a:hover {
   text-transform: uppercase !important;
 }
 
-.medium > .notion-collection-card__property-list:last-child:hover {
-  color: var(--theme-btn) !important;
-}
-
-.notion-property.notion-property__text.property-51665e78:hover {
+.notion-collection-card__property:last-of-type:after {
   color: var(--theme-btn) !important;
 }
 
