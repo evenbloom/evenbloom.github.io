@@ -144,7 +144,7 @@ p.notion-text__content {
 
 .bg-gray-light.notion-callout.notion-callout {
   border-radius: 5px !important;
-  background-color: var(--theme-lightsage) !important;
+  background-color: var(--theme-p-color) !important;
   color: var(--theme-background) !important;
   display: inline-flex !important;
   margin-top: 0.5rem !important;
