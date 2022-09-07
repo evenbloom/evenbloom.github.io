@@ -361,7 +361,7 @@ a:hover {
   text-transform: uppercase !important;
 }
 
-.medium > .notion-collection-card.gallery:last-child:hover {
+.medium > .notion-collection-card__property-list:last-child:hover {
   color: var(--theme-btn) !important;
 }
 
