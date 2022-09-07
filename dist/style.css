@@ -365,6 +365,10 @@ a:hover {
   color: var(--theme-btn) !important;
 }
 
+.notion-property.notion-property__text.property-51665e78:hover {
+  color: var(--theme-btn) !important;
+}
+
 .notion-property.notion-property__select.property-5d666a67 {
   margin-bottom: 20px !important;
 }
@@ -446,6 +450,14 @@ a:hover {
 }
 
 .notion-header__content.no-cover.has-icon-image .notion-header__title-wrapper {
+  display: none !important;
+}
+
+.notion-callout.bg-red-light.border {
+  display: none !important;
+}
+
+.notion-toggle__summary {
   display: none !important;
 }
 
