@@ -425,7 +425,7 @@ a:hover {
   font-weight: 700 !important;
 }
 
-.notion-collection-card__content:first-child:hover {
+.small > .notion-collection-card.gallery:hover {
   color: var(--theme-btn) !important;
 }
 
