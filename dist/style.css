@@ -361,6 +361,10 @@ a:hover {
   text-transform: uppercase !important;
 }
 
+.notion-collection-card__property:last-child:hover {
+  color: var(--theme-btn) !important;
+}
+
 .notion-property.notion-property__select.property-5d666a67 {
   margin-bottom: 20px !important;
 }
