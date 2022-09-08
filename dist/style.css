@@ -221,6 +221,7 @@ h3.notion-heading {
 .notion-text p.notion-text__content span.notion-semantic-string span strong a.notion-link:hover {
   background: var(--theme-btn) !important;
   border: 2px rgb(252, 252, 252) solid !important;
+  transition: background 0.3s 0s ease-in-out !important;
 }
 
 /*hero link*/
