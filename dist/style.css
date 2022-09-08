@@ -345,6 +345,10 @@ h3.notion-heading {
   color: var(--theme-btn) !important;
 }
 
+.notion-collection-card__property:last-of-type:after {
+  color: pink !important;
+}
+
 .notion-property.notion-property__text.property-51665e78 a:hover {
   color: var(--theme-btn) !important;
 }
