@@ -222,6 +222,7 @@ h3.notion-heading {
   background: var(--theme-btn) !important;
   border: 2px rgb(252, 252, 252) solid !important;
   transition: background 0.3s 0s ease-in-out !important;
+  box-sizing: border-box !important;
 }
 
 /*hero link*/
