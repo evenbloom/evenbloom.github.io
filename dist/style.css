@@ -218,6 +218,10 @@ h3.notion-heading {
   transition: background 0.3s 0s ease-in-out !important;
 }
 
+a:hover {
+  color: var(--theme-btn) !important;
+}
+
 .notion-text p.notion-text__content span.notion-semantic-string span strong a.notion-link:hover {
   background: var(--theme-btn) !important;
   border: 2px rgb(252, 252, 252) solid !important;
@@ -342,14 +346,6 @@ h3.notion-heading {
 }
 
 .notion-link.notion-collection-card__anchor a:hover {
-  color: var(--theme-btn) !important;
-}
-
-.notion-collection-card__property:last-of-type:after {
-  color: pink !important;
-}
-
-.notion-property.notion-property__text.property-51665e78 a:hover {
   color: var(--theme-btn) !important;
 }
 
