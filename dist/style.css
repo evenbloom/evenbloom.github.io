@@ -505,7 +505,7 @@ a:hover {
   position: relative !important;
 }*/
 .super-navbar {
-  max-width: 1200px !important;
+  max-width: 1248px !important;
   /*background: none !important;*/
   margin: 0 auto !important;
   background: var(--theme-background) !important;
