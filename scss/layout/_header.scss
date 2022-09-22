@@ -4,6 +4,7 @@
 }*/
 
 .super-navbar{
+  max-width: 1200px !important;
   /*background: none !important;*/
   margin: 0 auto !important;
   background: var(--theme-background) !important;
@@ -13,10 +14,6 @@
   align-items: center !important;
   padding-left: 96px !important;
   padding-right: 96px !important;
-}
-
-.super-navbar__content{
-  max-width: 1200px !important;
 }
 
 .super-navbar__item{
