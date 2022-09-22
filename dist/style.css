@@ -494,7 +494,6 @@ a:hover {
   }
   .notion-text p.notion-text__content span.notion-semantic-string span a {
     display: block !important;
-    margin-top: 2rem !important;
   }
 }
 @media only screen and (max-width: 50em) {
