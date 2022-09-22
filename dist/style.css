@@ -565,6 +565,10 @@ a:hover {
   display: none !important;
 }
 
+.notion-column-list {
+  display: none !important;
+}
+
 .notion-heading {
   font-size: 60px;
 }
