@@ -480,7 +480,7 @@ a:hover {
   display: none !important;
 }
 
-@media (max-width: 1080) {
+@media (max-width: 1080px) {
   .notion-column-list {
     display: block !important;
   }
