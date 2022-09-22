@@ -380,6 +380,14 @@ a:hover{
 .notion-toggle__summary{
   display: none !important;
 }
+@media (max-width:1080){
+  .notion-column-list{
+    display: block !important;
+  }
+  .notion-column[style]{
+    width: 100% !important;
+  }
+}
 
 @media (max-width:767.98px){
   .notion-collection .notion-collection-table{
