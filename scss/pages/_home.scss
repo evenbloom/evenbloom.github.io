@@ -205,6 +205,13 @@ a:hover{
   border-top: none !important;
 }
 
+.super-content .notion-collection-gallery.large{
+  margin-top: 3rem !important;
+  margin-bottom: 3rem !important;
+  padding-bottom: 6.5rem !important;
+  border-bottom: 1px solid rgb(233, 233, 231) !important;
+}
+
 .notion-collection-gallery>.notion-collection-card.gallery{
   display: flex !important;
   flex-direction: row !important;
@@ -236,7 +243,7 @@ a:hover{
   /*padding: 50px !important;*/
 }
 
-.notion-collection-card__cover.medium{
+.notion-collection-card__cover.large{
   min-height: 400px !important;
   height: 400px !important;
   border-radius: 5px !important;
