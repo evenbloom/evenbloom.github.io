@@ -505,7 +505,7 @@ a:hover {
     max-width: 100% !important;
   }
   .notion-semantic-string {
-    line-height: 0px !important;
+    line-height: 1.5rem !important;
     white-space: unset !important;
     gap: 0.5rem !important;
   }
