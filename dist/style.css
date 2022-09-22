@@ -502,6 +502,9 @@ a:hover {
   .notion-collection-gallery.small {
     grid-template-columns: repeat(1, 1fr) !important;
   }
+  .bg-gray-light.notion-callout.notion-callout {
+    padding: 30px 30px !important;
+  }
 }
 /*
 .super-navbar[style] {
