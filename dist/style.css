@@ -474,6 +474,11 @@ a:hover {
   display: none !important;
 }
 
+@media (max-width: 767.98px) {
+  .notion-collection .notion-collection-table {
+    font-size: 1rem !important;
+  }
+}
 @media only screen and (max-width: 50em) {
   h1.notion-heading strong {
     font-size: 3rem !important;
