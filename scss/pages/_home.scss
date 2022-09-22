@@ -394,7 +394,8 @@ a:hover{
     font-size: 1rem !important;
   }
 
-  .notion-text p.notion-text__content span.notion-semantic-string span a{
+  .notion-text p.notion-text__content span.notion-semantic-string span a.notion-link .link{
+    margin-top: 2rem !important;
     display: block !important;
   }
 
