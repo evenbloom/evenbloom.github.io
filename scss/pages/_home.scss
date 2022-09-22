@@ -404,6 +404,7 @@ a:hover{
   }
 
   .notion-semantic-string{
+    line-height: 0px !important;
     display: grid !important;
     white-space: unset !important;
     gap: .5rem !important;
