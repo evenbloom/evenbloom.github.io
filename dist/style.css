@@ -282,7 +282,7 @@ a:hover {
 /*columns design*/
 .notion-column-list {
   align-items: flex-start !important;
-  margin-top: 2.5rem;
+  margin-top: 2rem;
   margin-bottom: 3rem;
 }
 
