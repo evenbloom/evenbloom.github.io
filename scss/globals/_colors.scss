@@ -6,8 +6,15 @@
   --theme-btn: rgb(59, 41, 190);
 }
 
-:root.dark{
-  
+p {
+  color: rgb(158, 158, 158);
+  @media screen and (prefers-color-scheme: dark) {
+    color: rgb(59, 41, 190);
+  }
+}
+
+:root{
+  color-scheme: light dark;
 }
 
 body{
