@@ -392,6 +392,10 @@ a:hover{
   .notion-column[style]{
     width: 100% !important;
   }
+
+  .notion-image.normal{
+    display: none !important;
+  }
 }
 
 @media (max-width:746px){
