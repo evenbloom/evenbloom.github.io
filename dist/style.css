@@ -501,6 +501,9 @@ a:hover {
     margin-top: 2rem !important;
     display: block !important;
   }
+  .notion-collection-gallery.small > .notion-collection-card.gallery {
+    margin-bottom: 2rem !important;
+  }
 }
 @media only screen and (max-width: 50em) {
   h1.notion-heading strong {
