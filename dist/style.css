@@ -216,6 +216,10 @@ h3.notion-heading {
   text-transform: uppercase !important;
 }
 
+.notion-image.normal {
+  margin-left: auto !important;
+}
+
 /*hero button*/
 .notion-text p.notion-text__content span.notion-semantic-string span strong a.notion-link {
   background: var(--theme-heading) !important;
