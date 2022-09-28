@@ -430,8 +430,8 @@ a:hover {
 
 .notion-collection-card__cover.small {
   border-radius: 5px !important;
-  min-height: 200px !important;
-  height: 200px !important;
+  min-height: 180px !important;
+  height: 180px !important;
 }
 
 .notion-collection-card__content {
@@ -500,6 +500,11 @@ a:hover {
   .notion-text p.notion-text__content span.notion-semantic-string span a.notion-link .link {
     margin-top: 2rem !important;
     display: block !important;
+  }
+  .notion-collection-card__cover.small {
+    border-radius: 5px !important;
+    min-height: 200px !important;
+    height: 200px !important;
   }
   .notion-collection-gallery.small > .notion-collection-card.gallery {
     margin-bottom: 2rem !important;
