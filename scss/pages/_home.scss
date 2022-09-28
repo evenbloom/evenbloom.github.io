@@ -310,6 +310,7 @@ a:hover{
   margin-bottom: 2.25rem !important;
 }
 
+
 .notion-collection-gallery.small > .notion-collection-card.gallery{
   display: block !important;
   margin-bottom: 0 !important;
@@ -326,6 +327,8 @@ a:hover{
 
 .notion-collection-card__cover.small{
   border-radius: 5px !important;
+  min-height: 200px !important;
+  height: 200px !important;
 }
 
 .notion-collection-card__content{

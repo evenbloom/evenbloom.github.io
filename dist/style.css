@@ -430,6 +430,8 @@ a:hover {
 
 .notion-collection-card__cover.small {
   border-radius: 5px !important;
+  min-height: 200px !important;
+  height: 200px !important;
 }
 
 .notion-collection-card__content {
