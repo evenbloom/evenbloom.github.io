@@ -292,8 +292,6 @@ a:hover {
 /*columns design*/
 .notion-column-list {
   /*align-items: flex-start !important;*/
-  display: flex !important;
-  flex-wrap: wrap !important;
   margin-top: 2rem;
   margin-bottom: 3rem;
 }
