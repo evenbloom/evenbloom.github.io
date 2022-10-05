@@ -125,7 +125,6 @@ body {
   position: relative !important;
   margin: 0 !important;
   padding: 0 !important;
-  font-family: Arial, Helvetica, sans-serif;
   background-color: var(--theme-background) !important;
   color: var(--theme-heading) !important;
 }
@@ -497,7 +496,6 @@ a:hover {
 @media (max-width: 1080px) {
   .notion-column-list {
     /*display: block !important;*/
-    flex-direction: column-reverse !important;
   }
   .notion-column[style] {
     width: 100% !important;
@@ -532,7 +530,6 @@ a:hover {
   }
   .notion-semantic-string {
     line-height: 1.5rem !important;
-    white-space: unset !important;
     gap: 0.5rem !important;
   }
   .notion-collection-gallery > .notion-collection-card.gallery {
