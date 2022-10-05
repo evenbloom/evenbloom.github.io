@@ -499,6 +499,8 @@ a:hover {
   }
   .notion-column[style] {
     width: 100% !important;
+    -webkit-margin-start: 0 !important;
+            margin-inline-start: 0 !important;
   }
   .notion-image.normal {
     display: none !important;
