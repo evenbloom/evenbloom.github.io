@@ -513,6 +513,9 @@ a:hover {
   .super-content {
     padding: 0 2rem !important;
   }
+  .super-navbar__content {
+    padding: 0 1rem !important;
+  }
 }
 @media (max-width: 746px) {
   .notion-collection .notion-collection-table {
