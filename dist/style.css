@@ -509,10 +509,12 @@ a:hover {
     display: none !important;
   }
 }
-@media (max-width: 746px) {
+@media (max-width: 800px) {
   .super-content {
     padding: 0 2rem !important;
   }
+}
+@media (max-width: 746px) {
   .notion-collection .notion-collection-table {
     font-size: 1rem !important;
   }
