@@ -493,9 +493,6 @@ a:hover {
 }
 
 @media (max-width: 1080px) {
-  .super-content {
-    padding: 0 2rem !important;
-  }
   .notion-column-list {
     /*display: block !important;*/
   }
@@ -509,6 +506,9 @@ a:hover {
   }
 }
 @media (max-width: 746px) {
+  .super-content {
+    padding: 0 2rem !important;
+  }
   .notion-collection .notion-collection-table {
     font-size: 1rem !important;
   }
