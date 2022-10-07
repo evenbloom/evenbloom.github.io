@@ -604,9 +604,14 @@ a:hover {
   opacity: 1 !important;
 }
 
-@media (max-width: 1248) {
+@media (max-width: 1248px) {
   .super-navbar {
     padding: 0 70px !important;
+  }
+}
+@media (max-width: 548px) {
+  .super-navbar__logo {
+    padding: 0 16px !important;
   }
 }
 @media only screen and (max-width: 50em) {
