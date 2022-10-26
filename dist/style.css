@@ -497,9 +497,6 @@ a:hover {
 }
 
 @media (max-width: 1080px) {
-  .notion-column-list {
-    /*display: block !important;*/
-  }
   .notion-column[style] {
     width: 100% !important;
     -webkit-margin-start: 0 !important;
@@ -647,13 +644,13 @@ a:hover {
 
 @media (max-width: 1248px) {
   .super-footer {
-    padding-left: 1rem !important;
-    padding-right: 1rem !important;
+    padding-left: 5rem !important;
+    padding-right: 5rem !important;
   }
 }
-@media (max-width: 767.98px) {
+@media (max-width: 800px) {
   .super-footer {
-    padding: 0 1rem !important;
+    padding: 0 2rem !important;
   }
 }
 .notion-heading {
