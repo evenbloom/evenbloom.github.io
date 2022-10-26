@@ -1,46 +1,13 @@
-.notion-collection .notion-collection-table__cell .notion-link{
-  font-size: 1.1rem !important;
-  transition: all 0.2s ease-in-out !important;
-  border: 0 !important;
-}
-
-.notion-collection-table{
-  font-size: 1.125rem !important;
-  font-weight: 500 !important;
-  color: var(--theme-p-color) !important;
-  border-top: none !important;
-}
-
-.notion-collection-table__head{
-  display: none !important;
-}
-.notion-collection-table td, .notion-collection-table th{
-  border: 0 !important;
-}
-
-.notion-collection-table__cell.title.no-click{
-  display: none !important;
-}
-
-
-
-.notion-collection .notion-collection-table__wrapper{
-  padding-top: 4.5rem !important;
-  margin-top: 3.5rem !important;
-  border-top: 1px solid rgb(233, 233, 231) !important;
-}
-
 .super-footer{
   background: var(--theme-background) !important;
   width: 100% !important;
   box-shadow: none !important;
   margin: 0 auto !important;
-  max-width: 1248px !important;
+  max-width: 1342px !important;
   padding: 80px 0px !important;
 }
 
 .super-footer.corners{
-  display: block !important;
   border-top: 1px solid rgb(233, 233, 231) !important;
 }
 
