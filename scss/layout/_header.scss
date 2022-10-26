@@ -35,6 +35,12 @@
   opacity: 1 !important;
 }
 
+@media (max-width:1500px){
+  .super-navbar{
+    padding: 0 5rem !important;
+  }
+}
+
 @media (max-width:1248px){
   .super-navbar{
   padding: 0 70px !important;

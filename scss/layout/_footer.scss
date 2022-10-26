@@ -22,6 +22,12 @@
   color: var(--theme-heading) !important;
 }
 
+@media (max-width:1500px){
+  .super-footer{
+    padding: 0 5rem !important;
+  }
+}
+
 @media (max-width:1248px){
   .super-footer{
     padding-left: 5rem !important;
