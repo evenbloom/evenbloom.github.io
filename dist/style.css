@@ -651,6 +651,34 @@ a:hover {
   border-top: 1px solid rgb(233, 233, 231) !important;
 }
 
+.super-footer {
+  background: var(--theme-background) !important;
+  max-width: 1248px !important;
+  margin: 0 auto !important;
+  display: flex !important;
+  align-items: center !important;
+  padding-left: 96px !important;
+  padding-right: 96px !important;
+  text-align: right !important;
+  justify-content: space-between !important;
+}
+
+.super-footer.corners {
+  width: 100% !important;
+  flex-direction: row-reverse !important;
+}
+
+.super-footer.corners .super-footer__logo, .super-footer.floating .super-footer__logo {
+  display: none !important;
+}
+
+.super-footer__links {
+  font-size: 1.1rem !important;
+  font-weight: 500 !important;
+  transition: all 0.2s ease-in-out !important;
+  color: var(--theme-heading) !important;
+}
+
 .notion-heading {
   font-size: 60px;
 }
