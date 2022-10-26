@@ -362,8 +362,8 @@ a:hover {
 }
 
 .notion-collection-card__cover.large {
-  max-height: 25.5rem !important;
-  height: 25.5rem !important;
+  max-height: 33rem !important;
+  height: 33rem !important;
   border-radius: 5px !important;
 }
 
@@ -409,7 +409,7 @@ a:hover {
 
 .super-content {
   display: flex !important;
-  max-width: 1200px !important;
+  max-width: 1500px !important;
   margin: 0 auto !important;
   padding-top: 5rem !important;
   padding-bottom: 5rem !important;
