@@ -11,7 +11,10 @@
   display: flex !important;
   /*top: 2.45rem !important;*/
   align-items: center !important;
-  padding: 80px 0 !important;
+}
+
+.super-navbar__content{
+  padding: 0 !important;
 }
 
 .super-navbar__item{
