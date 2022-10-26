@@ -651,6 +651,11 @@ a:hover {
     padding-right: 1rem !important;
   }
 }
+@media (max-width: 767.98px) {
+  .super-footer {
+    padding: 0 1rem !important;
+  }
+}
 .notion-heading {
   font-size: 60px;
 }
