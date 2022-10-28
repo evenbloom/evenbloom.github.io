@@ -254,6 +254,10 @@ a:hover {
   margin-left: 0.5rem !important;
 }
 
+.notion-text p.notion-text__content span.notion-semantic-string span em a.notion-link:hover {
+  color: var(--theme-btn) !important;
+}
+
 .notion-property.notion-property__text.property-51665e78 {
   border-bottom: none !important;
   color: var(--theme-heading) !important;
