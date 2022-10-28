@@ -529,6 +529,10 @@ a:hover {
   }
 }
 @media (max-width: 746px) {
+  .notion-text p.notion-text__content span.notion-semantic-string span em a.notion-link {
+    display: inline-block !important;
+    padding-top: 1rem !important;
+  }
   .notion-collection .notion-collection-table {
     font-size: 1rem !important;
   }
