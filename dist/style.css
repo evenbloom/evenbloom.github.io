@@ -224,7 +224,8 @@ h3.notion-heading {
   background: var(--theme-heading) !important;
   padding: 0.6875rem 1.75rem 0.725rem 1.75rem !important;
   border-bottom: none !important;
-  color: rgb(252, 252, 252) !important;
+  /*color: rgb(252, 252, 252) !important;*/
+  color: pink !important;
   border-radius: 5rem !important;
   font-size: 1rem !important;
   font-weight: 500 !important;
