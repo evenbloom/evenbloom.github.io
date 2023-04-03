@@ -112,10 +112,11 @@ a:active {
   --theme-btn: rgb(59, 41, 190);
   --theme-border: rgb(233, 233, 231);
   --theme-cta-bg: rgb(43, 43, 43);
-  --theme-cta-text: rgb(100, 99, 102);
+  --theme-cta-text: rgb(244 242 253);
   --theme-cta-border:rgb(252, 252, 252);
   --theme-link-hover: rgb(59, 41, 190);
   --theme-footnote: rgb(55, 53, 47);
+  --theme-pill-orange: hsl(25, calc(54% + 9%),32%);
 }
 
 .theme-dark body {
