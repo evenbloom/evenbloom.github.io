@@ -168,7 +168,7 @@ p.notion-text__content {
   border-radius: 5px !important;
   border-color: var(--theme-background) !important;
   background-color: var(--theme-btn) !important;
-  color: var(--theme-background) !important;
+  color: var(--theme-callout-heading) !important;
   display: inline-flex !important;
   margin-top: 0.5rem !important;
   margin-bottom: 0.5rem !important;
