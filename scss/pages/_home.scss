@@ -394,6 +394,12 @@ a:hover{
 .notion-toggle__summary{
   display: none !important;
 }
+
+//gumroad
+.gumroad .cart-button{
+  display: none !important;
+}
+
 @media (max-width:1080px){
   .notion-column-list{
     /*display: block !important;*/
