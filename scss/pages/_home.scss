@@ -61,11 +61,15 @@ p.notion-text__content {
   border-radius: 5px !important;
 }
 
-//bullot points
+//bullet points
 .notion-bulleted-list {
   font-weight: 500 !important;
   font-size: 1.125rem !important;
-  color: var(--theme-heading) !important;
+  color: var(--theme-p-color) !important;
+}
+
+ol .notion-numbered-list {
+  color: var(--theme-p-color) !important;
 }
 
 /*.notion-text__content{
@@ -389,15 +393,6 @@ a:hover {
 
 .notion-header__content.no-cover.has-icon-image .notion-header__title-wrapper {
   display: none !important;
-}
-
-//bulleted and numbered styles
-.notion-bulleted-list {
-  color: var(--theme-p-color) !important;
-}
-
-.notion-numbered-list {
-  color: var(--theme-p-color) !important;
 }
 
 //callouts
