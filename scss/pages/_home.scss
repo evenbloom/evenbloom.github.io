@@ -62,13 +62,13 @@ p.notion-text__content {
 }
 
 //bullet points
-.notion-bulleted-list {
+ul.notion-bulleted-list {
   font-weight: 500 !important;
   font-size: 1.125rem !important;
   color: var(--theme-p-color) !important;
 }
 
-ol .notion-numbered-list {
+ol.notion-numbered-list {
   color: var(--theme-p-color) !important;
 }
 
