@@ -7,6 +7,10 @@ body {
   color: var(--theme-heading) !important;
 }
 
+picture {
+  width: 100% !important;
+}
+
 .notion-header__cover.no-cover {
   display: none !important;
 }
