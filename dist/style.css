@@ -147,11 +147,6 @@ picture {
   width: 100% !important;
 }
 
-.super-content {
-  padding-left: 0 !important;
-  padding-right: 0 !important;
-}
-
 .notion-header__cover.no-cover {
   display: none !important;
 }
