@@ -72,9 +72,15 @@ ol.notion-numbered-list {
   color: var(--theme-p-color) !important;
 }
 
-/*.notion-text__content{
-  margin: 1rem 0 !important;
-}*/
+/*3.1v*/
+.notion-bulleted-list {
+  color: var(--theme-p-color) !important;
+}
+.notion-numbered-list {
+  font-weight: 500 !important;
+  font-size: 1.125rem !important;
+  color: var(--theme-p-color) !important;
+}
 
 /*headings*/
 h1.notion-heading {
@@ -132,9 +138,48 @@ h3.notion-heading {
   transition: background 0.3s 0s ease-in-out !important;
 }
 
+/*button 3.1v*/
+p.notion-text__content strong a {
+  background: var(--theme-cta-bg) !important;
+  padding: 0.6875rem 1.75rem 0.725rem 1.75rem !important;
+  border-bottom: none !important;
+  color: var(--theme-cta-text) !important;
+  border-radius: 5rem !important;
+  font-size: 1rem !important;
+  font-weight: 500 !important;
+  line-height: 1 !important;
+  display: inline-block !important;
+  -webkit-transition: background 0.3s 0s ease-in-out !important;
+  -moz-transition: background 0.3s 0s ease-in-out !important;
+  -o-transition: background 0.3s 0s ease-in-out !important;
+  transition: background 0.3s 0s ease-in-out !important;
+}
+
 a:hover {
   color: var(--theme-link-hover) !important;
 }
+
+/*button hover 3.1v*/
+p.notion-text__content strong a:hover {
+  background: var(--theme-btn) !important;
+  color: var(--theme-cta-text) !important;
+  border: 2px var(--theme-cta-border) solid !important;
+  transition: background 0.3s 0s ease-in-out !important;
+  box-sizing: border-box !important;
+  margin: -2px !important;
+}
+
+strong .notion-link.link:hover {
+  color: var(--theme-cta-text) !important;
+}
+
+p em a.notion-link {
+  font-style: normal !important;
+  font-weight: 500 !important;
+  transition: all 0.2s ease-in-out !important;
+  margin-left: 0.5rem !important;
+}
+/*---end*/
 
 .notion-text
   p.notion-text__content
@@ -269,6 +314,10 @@ a:hover {
 }
 
 .notion-collection-card__cover.large {
+  /*3.1*/
+  max-width: 100% !important;
+  width: 65rem !important;
+  /*---end*/
   max-height: 25.5rem !important;
   height: 25.5rem !important;
   border-radius: 5px !important;
@@ -363,9 +412,11 @@ a:hover {
 }
 
 .notion-collection-card .notion-property__title {
-  padding: 0 !important;
+  padding: 16px 0 !important;
   font-size: 1.4rem !important;
-  line-height: 2.5rem !important;
+  /*line-height: 2.5rem !important;*/
+  /*3.1v*/
+  line-height: 1.2rem !important;
   font-weight: 720 !important;
 }
 
@@ -452,12 +503,20 @@ a:hover {
 }
 
 @media only screen and (max-width: 50em) {
+  .super-navbar {
+    padding: 0px !important;
+  }
   h1.notion-heading strong {
     font-size: 3rem !important;
   }
 
   h1.notion-heading {
     max-width: 100% !important;
+    /*3.1*/
+    font-size: 2rem !important;
+    line-height: 2.6rem !important;
+    white-space: unset !important;
+    /*---End*/
   }
 
   .notion-semantic-string {

@@ -1,19 +1,28 @@
-/*
-.super-navbar[style] {
-  position: relative !important;
-}*/
+
+
+/*3.1*/
+.notion-root.max-width{
+  max-width: 1200px !important;
+}
 
 .super-navbar{
-  max-width: 1342px !important;
-  margin: 0 auto !important;
+  /*3.1*/
+  max-width: 1200px !important;
+  height: 70px !important;
+  margin-top: 15px !important;
+  margin-left: auto !important;
+  margin-right: auto !important;
   background: var(--theme-background) !important;
+  padding-left: var(--padding-left) !important;
+  padding-right: var(--padding-right) !important;
+  /*---End*/
   text-align: right !important;
   display: flex !important;
-  /*top: 2.45rem !important;*/
   align-items: center !important;
 }
 
 .super-navbar__content{
+  background: var(--theme-background) !important;
   padding: 0 !important;
 }
 

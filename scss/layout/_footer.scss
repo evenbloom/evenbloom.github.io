@@ -1,9 +1,10 @@
 .super-footer{
+  /*3.1*/ max-width: 1006px !important;
   background: var(--theme-background) !important;
   width: 100% !important;
   box-shadow: none !important;
   margin: 0 auto !important;
-  max-width: 1342px !important;
+  /*max-width: 1342px !important;*/
   padding: 80px 0px !important;
 }
 
