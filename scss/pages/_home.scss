@@ -532,6 +532,10 @@ p em a.notion-link {
     gap: 0.5rem !important;
   }
 
+  .notion-column-list {
+    flex-direction: column !important;
+  }
+
   .notion-collection-gallery > .notion-collection-card.gallery {
     display: block !important;
   }
