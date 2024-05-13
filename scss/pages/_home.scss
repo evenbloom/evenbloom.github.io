@@ -469,6 +469,7 @@ p em a.notion-link {
 @media (max-width: 1080px) {
   .notion-column[style] {
     width: 100% !important;
+    margin-inline-start: 0 !important;
   }
 
   .notion-image.normal {
