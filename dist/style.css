@@ -578,10 +578,6 @@ p em a.notion-link {
 }
 
 @media (max-width: 1080px) {
-  .notion-column-list {
-    /*display: block !important;*/
-    flex-direction: column-reverse !important;
-  }
   .notion-column[style] {
     width: 100% !important;
   }
