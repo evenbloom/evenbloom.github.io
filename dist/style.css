@@ -621,6 +621,9 @@ p em a.notion-link {
     white-space: unset !important;
     /*---End*/
   }
+  .notion-collection-card .notion-property__title {
+    line-height: 1.5rem !important;
+  }
   .notion-semantic-string {
     white-space: unset !important;
     gap: 0.5rem !important;
